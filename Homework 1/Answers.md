@@ -7,6 +7,13 @@ The answer is correct because while my MetaMask is currently connected to the Se
 
 # EXERCISE 2 :
 ## Part A :
+<table style="width:50%">
+  <tr>
+    <td><img src="Ex2_PartA_true.png" width="50%"></td>
+    <td><img src="Ex2_PartA_false.png" width="50%"></td>
+  </tr>
+</table>
+
 GitHub uses RSA to verify your identity through asymmetric cryptography, which pairs a public key with a private key. Here, the roles of the keys are reversed compared to the encryption used in the last exercise. You upload the public key to GitHub to serve as a "lock," while keeping the private key secure on your local machine as the "key." When you push code, GitHub issues a challenge that only your local private key can resolve, proving your identity without requiring a password.
 The difference lies in the fact that the private key is used for signing and authentication to prove origin, while the public key is for encryption and verification. Using a private key is appropriate when you need to authorize actions, like a Git commit or a blockchain transaction, because it provides a unique digital signature. Conversely, the public key is appropriate for ensuring confidentiality, as it allows others to encrypt data that only you can decrypt.
 
