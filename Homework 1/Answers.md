@@ -18,7 +18,7 @@ GitHub uses RSA to verify your identity through asymmetric cryptography, which p
 The difference lies in the fact that the private key is used for signing and authentication to prove origin, while the public key is for encryption and verification. Using a private key is appropriate when you need to authorize actions, like a Git commit or a blockchain transaction, because it provides a unique digital signature. Conversely, the public key is appropriate for ensuring confidentiality, as it allows others to encrypt data that only you can decrypt.
 
 ## Part B : 
-![own answers](Ex2_PartB.png)
+<img src="Ex2_PartB.png" alt="own answers" width="30%" />
 
 
 # EXERCISE 3 : 
